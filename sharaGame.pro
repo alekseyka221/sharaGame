@@ -12,6 +12,7 @@ SOURCES += \
         classes/peasant.cpp \
         classes/pure.cpp \
         classes/swordsman.cpp \
+        hero.cpp \
         main.cpp
 
 TRANSLATIONS += \
@@ -26,4 +27,5 @@ HEADERS += \
     classes/archer.h \
     classes/peasant.h \
     classes/pure.h \
-    classes/swordsman.h
+    classes/swordsman.h \
+    hero.h
