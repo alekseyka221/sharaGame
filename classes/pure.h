@@ -9,6 +9,8 @@ protected:
     double maxDamage;
     ~PureClass() = default;
 public:
+    int getHP();
+    double getDamage();
     virtual void attack(double damage) = 0;
 };
 

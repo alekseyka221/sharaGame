@@ -7,6 +7,8 @@ class Peasant : public PureClass
 {
 public:
     Peasant ();
+    int getHP();
+    double getDamage();
     void attack(double damage);
 };
 

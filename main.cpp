@@ -1,8 +1,12 @@
 #include <QCoreApplication>
 #include <iostream>
-int main(int argc, char *argv[])
-{
-    QCoreApplication a(argc, argv);
+#include "hero.h"
 
-    return a.exec();
+int main()
+{
+    Hero myFrirstHero;
+    Hero mySecondHero;
+    myFrirstHero.hit(mySecondHero);
+    std::cout << mySecondHero.getHP();
+    myFrirstHero.getClass()->attack(12);
 }

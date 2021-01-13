@@ -10,4 +10,5 @@ public:
     void attack(double damage);
 };
 
+
 #endif // ARCHER_H

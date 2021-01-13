@@ -16,13 +16,13 @@ private:
     PureClass* curClass;
 public:
     Hero();
-    void setClass(PureClass* heroClass);
     PureClass* getClass();
     void levelUp();
-    void chooseClass();
     void dead();
     void hit(Hero &enemy);
     void armorUp();
+    void setHP(int hp);
+    int getHP();
 };
 
 #endif // HERO_H

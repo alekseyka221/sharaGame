@@ -1,6 +1,10 @@
 #include "pure.h"
 
-pure::pure()
+int PureClass ::getHP()
 {
-
+    return this->maxHp;
+}
+double PureClass ::getDamage()
+{
+    return this->maxDamage;
 }
